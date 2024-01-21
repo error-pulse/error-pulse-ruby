@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "error_pulse/version"
-
-module ErrorPulse
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative 'error_pulse/version'
+require_relative 'error_pulse/configuration'
+require_relative 'error_pulse/service'
